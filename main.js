@@ -1,4 +1,8 @@
-const scissors = ['', 'ножницы', 'камень', 'бумага'];
+const scissors = {
+	1: 'ножницы',
+	2: 'камень',
+	3: 'бумага'
+};
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
